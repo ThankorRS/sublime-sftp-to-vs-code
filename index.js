@@ -24,5 +24,5 @@ if (!fs.existsSync(codeDir)) {
     fs.mkdirSync(codeDir);
 }
 
-fs.writeFileSync('./.vscode/sftp.json', codeJson);
-console.log("All done!");
+fs.writeFileSync('./.vscode/sftpConfig.json', codeJson);
+console.log("Yeah, it's all done!");

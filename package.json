@@ -1,13 +1,13 @@
 {
-  "name": "@copperdust/sublime-visual-studio-code-sftp-copy",
-  "version": "1.0.2",
-  "description": "Copies Sublime Text's sftp-config.json information into an appropriate .vscode/sftp.json file",
+  "name": "@thankorrs/sublime-vscode-sftp-copy",
+  "version": "1.0.3",
+  "description": "Copies Sublime Text's sftp-config.json information into an appropriate .vscode/sftp.json file. The needed Plugin is https://marketplace.visualstudio.com/items?itemName=suntobright.vscode-sftp",
   "main": "index.js",
   "scripts": {
-    "test": "sublime-sftp-to-vs-code"
+    "test": "sublime-to-vscode"
   },
   "bin": {
-    "sublime-sftp-to-vs-code": "index.js"
+    "sublime-to-vscode": "index.js"
   },
   "keywords": [
     "sublime",
@@ -18,7 +18,7 @@
     "config",
     "copy"
   ],
-  "author": "Fabio Pampin (Copperdust)",
+  "author": "Fabio Pampin (Copperdust), Fork from Robin Sigrist (simpit GmbH)",
   "license": "ISC",
   "dependencies": {
     "strip-json-comments": "^3.0.1"
